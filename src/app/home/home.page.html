@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      PDF  Reader
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <ion-button (click)="
+        download(
+          'https://firebasestorage.googleapis.com/v0/b/testapp-bb252.appspot.com/o/LessionPlan%2FPS01%2FObservations%2FDIY%20Music%20Observations.pdf?alt=media&token=a4be995e-f261-4932-bd92-bfab28652d26',
+          'Demo PDF'
+        )
+      ">Click to View Doc</ion-button>
+
+
+    <iframe
+      src="https://firebasestorage.googleapis.com/v0/b/testapp-bb252.appspot.com/o/LessionPlan%2FPS01%2FObservations%2FDIY%20Music%20Observations.pdf?alt=media&token=a4be995e-f261-4932-bd92-bfab28652d26">
+    </iframe>
+
+
+    </div>
+   
+
+</ion-content>

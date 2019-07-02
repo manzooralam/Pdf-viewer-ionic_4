@@ -1,0 +1,7 @@
+{
+  "name": "Pdf_Reader",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
