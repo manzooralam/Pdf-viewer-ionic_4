@@ -3,6 +3,8 @@ import { File } from '@ionic-native/file/ngx';
 import {FileTransfer,FileTransferObject} from "@ionic-native/file-transfer/ngx";
 import { FileOpener } from "@ionic-native/file-opener/ngx";
 import { Injectable } from "@angular/core";
+import { DocumentViewer } from '@ionic-native/document-viewer/ngx';
+
 
 @Injectable({
   providedIn: "root"
